@@ -238,3 +238,25 @@ nav ul li {
   border-radius: 10px;
   width: 80%;
 }
+
+.tech-images{
+  padding: 1rem;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.next-button{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  text-align: right;
+
+
+}
+.next-button h3{
+  padding: 1rem;
+  font-size: 12px;
+  display: inline-block;
+  background-color: rgb(16, 87, 109);
+  border-radius: 10px;
+}

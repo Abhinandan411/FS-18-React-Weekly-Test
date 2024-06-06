@@ -1,0 +1,15 @@
+.carousel {
+    display: flex;
+    overflow-x: hidden;
+    width: 100%;
+    white-space: nowrap;
+    justify-content: space-around;
+   
+  }
+  
+  .carousel img {
+    border-radius: 50%;
+    width: 100px;
+    height: auto;
+    margin-right: 10px;
+  }

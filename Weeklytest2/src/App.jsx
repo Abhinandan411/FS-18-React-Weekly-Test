@@ -13,7 +13,9 @@ import PhoneIphoneIcon from '@mui/icons-material/PhoneIphone';
 import SignalCellularAltIcon from '@mui/icons-material/SignalCellularAlt';
 import CameraAltIcon from '@mui/icons-material/CameraAlt';
 import ViewInArIcon from '@mui/icons-material/ViewInAr';
+
 import Accordion from './Accordion';
+import Carousel from './Carousel';
 
 import './App.css'
 
@@ -209,6 +211,14 @@ function App() {
               </div>
 
             </div>
+          </div>
+
+          <div className='tech-images'>
+            <Carousel/>
+          </div>
+
+          <div className='next-button'>
+            <h3>NEXT</h3>
           </div>
 
         </main>
