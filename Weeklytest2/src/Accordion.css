@@ -1,0 +1,32 @@
+.accordion {
+    background-color: rgb(39, 129, 156);
+    padding: 1rem;
+    border: 1px solid rgb(97, 97, 97);
+    border-radius: 5px;
+    width: 100%;
+    margin: 20px auto;
+    color: #e0e0e0;
+    box-shadow: 0 0 15px 2px rgb(92, 92, 92);
+  }
+  
+  .accordion-header h2 {
+    margin: 0;
+  }
+  
+  .accordion-content {
+    display: none;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+  }
+  
+  .accordion-content.show {
+    display: block;
+  }
+  
+  .show-more {
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+  }
